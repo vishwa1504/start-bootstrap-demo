@@ -1,0 +1,256 @@
+/*Navbar*/
+.nav
+{
+    background-color: rgb(21, 51, 59);
+   font-weight: bolder;
+   height: 85px;
+} 
+.nav-item
+{
+    color: azure;
+    text-align: right;
+    font-size: larger;
+    
+    
+}
+.nav-item:hover
+{
+    color:rgb(63, 186, 151);
+}
+.navbar-brand
+{
+    color: azure;
+    padding-left: 80px;
+    font-size: 30px;
+}
+.navbar-brand:hover
+{
+    color: azure;
+}
+.navbar-nav
+{
+    padding-left: 580px;
+}
+/*Navbar ends*/
+
+/*Content*/
+.content
+{
+    background-color:rgb(63, 186, 151);
+    height: 600px;
+}
+.image_style
+{
+    height: 250px;
+    width: 250px;
+    margin-top:100px;
+    margin-left: 500px;
+    border-radius: 50%;
+}
+h1
+{
+    color:white;
+    text-align:center;
+    font-weight:bolder;
+    letter-spacing:0.3rem;
+    font-size: 70px;
+    margin-top: 20px;
+}
+h3
+{
+    color:white;
+    text-align:center;
+    font-weight:bold;
+   
+    font-size: 18px;
+    margin-top: 40px;
+}
+/*Content ends*/
+
+/*Portfolio*/
+.port
+{
+    color:black;
+    text-align:center;
+    font-weight:bolder;
+    letter-spacing:0.3rem;
+    font-size: 45px;
+    margin-top: 50px;
+}
+.card-deck
+{
+  display: flex;
+  flex-direction: row;
+}
+
+/*Portfolio ends*/
+
+/*About*/
+.abt
+{
+    background-color:rgb(63, 186, 151);
+    height: 550px;
+}
+.abtH1
+{
+    color:white;
+    text-align:center;
+    font-weight:bolder;
+    letter-spacing:0.3rem;
+    font-size: 50px;
+    margin-top: 40px;
+    padding-top: 60px;
+}
+.content1
+{
+    color: white;
+    padding-top: 70px;    
+    padding-left: 300px;
+    font-size: 20px;
+   font-style: normal;
+
+}
+.content2
+{
+    color: white;
+    padding-left: 730px;
+    margin-top: -200px;
+    font-size: 20px;
+   font-style: normal;
+}
+.btnAbout
+{
+    border-radius: 16px;
+    padding: 20px;
+    margin-left: 580px;
+    margin-top: 90px;
+    background-color:rgb(63, 186, 151);
+    color: white;
+   border-color: white;
+   font-size: 20px;
+    
+}
+.btnAbout:hover
+{
+    background-color: white;
+    color: black;
+}
+/*About ends*/
+
+/*Contact*/
+
+.conH1
+{
+    color:  rgb(21, 51, 59);
+    text-align: center;
+    font-weight:bolder;
+    letter-spacing:0.3rem;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  background: #ffffff;
+  border: 10px solid #f2f2f2;
+}
+
+input, textarea {
+  width: 100%;
+}
+/*Contact ends*/
+
+
+/*Footer starts*/
+.foot
+{
+    background-color: rgb(21, 51, 59);
+    height:280px ;
+    
+}
+.location
+{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 90px;
+    padding-left: 180px;
+}
+.locContent
+{
+    color: white;
+    font-weight: bolder;
+    font-size:20px ;
+    margin-left:150px;
+    margin-top: 30px;
+}
+.web
+{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: -135px;
+    padding-left: 480px;
+}
+.freelancer
+{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: -95px;
+    padding-left: 880px;
+}
+.facebook
+{
+    height: 50px;
+    width:50px;
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-left: 500px;
+}
+.linkedin
+{
+    height: 50px;
+    width:50px;
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.twitter
+{
+    height: 50px;
+    width:50px;
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.facebook:hover,.twitter:hover,.linkedin:hover
+{
+    background-color: white;
+    border-radius:12px ;
+    height: 50px;
+    width:50px;
+}
+.abtContent
+{
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding-left: 850px;
+}
+.link 
+{
+    color:rgb(63, 186, 151);
+    background-color: transparent;
+  
+}
+.link:hover
+{
+    color:rgb(51, 104, 89);
+    background-color: transparent;
+}
+
+/*Footer ends*/
